@@ -1,0 +1,6 @@
+interface:
+  display_name: "自适应任务拆解"
+  short_description: "先对齐目标与投入，再逐步拆成适合你执行的任务，管理依赖、前提修复与计划调整"
+  default_prompt: "使用 $adaptive-task-planning 帮我分析并拆解一个大任务：先对齐重要性、期待和约束，再逐步细化到我能执行的程度，并管理依赖、关键前提和预案。"
+policy:
+  allow_implicit_invocation: true
